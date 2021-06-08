@@ -1,0 +1,65 @@
+:root {
+    --surface-color: #fff;
+    --curve: 40;
+  }
+*{
+    box-sizing: border-box;
+}
+
+h3{
+    color: black;
+}
+
+.card{
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+    margin-left: 10px;
+  
+}
+.cosa{
+    background:linear-gradient(135deg, #CE9FFC 0%,#7367F0 100%);
+}
+
+.card-header{
+    height: 200px;
+    width: 200;
+}
+
+.card-header img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.card-content{
+    background-color: #fff;
+    padding: 30px;
+
+}
+
+.card-title{
+    height: 0px;
+    margin: 0;
+    color: black;
+}
+
+.card-excerpt{
+    color: #777;
+    margin: 10px 0 20px;
+}
+p{
+    color:black;
+}
+
+
+.profile-img{
+    border-radius: 50%;
+    overflow: hidden;
+    height: 40px;
+    width: 40px;
+}
+
+
+
